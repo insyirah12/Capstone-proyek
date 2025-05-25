@@ -39,7 +39,6 @@
 
 ##  Struktur Folder
 Skivio/
-├── frontend/ # Kode frontend React
 ├── design/ # Gambar ekspor desain Figma
 ├── notebooks/ # Notebook Google Colab
 └── README.md
