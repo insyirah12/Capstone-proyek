@@ -1,7 +1,14 @@
 #  Skivio: Deteksi Dini Kanker Kulit dan Lesi Jinak dengan Model Pembelajaran Mesin
 
+## ID Tim: CC25-CF343
+**Tema**: Health Innovation
+Advisor:
+1. Fauzan Ihza Fajar (AD25-382)
+2. Ilham Setia Pambudi (AD25-378)
+Tanggal Mentoring: Jumat, 30 Mei 2025
+
 ##  Deskripsi Proyek
-**Skivio** adalah aplikasi berbasis kecerdasan buatan (AI) yang bertujuan untuk membantu masyarakat dalam melakukan deteksi dini terhadap kanker kulit dan lesi jinak melalui analisis gambar kulit. Dengan memanfaatkan teknologi pembelajaran mesin, khususnya model MobilenetV2, aplikasi ini dapat memberikan hasil klasifikasi secara instan, serta rekomendasi tindakan lanjutan yang mudah dipahami.
+**Skivio** adalah sistem berbasis web yang membantu deteksi dini kanker kulit dan lesi jinak menggunakan citra kulit. Proyek ini dikembangkan untuk mengatasi keterbatasan akses layanan dermatologi, terutama di daerah terpencil Indonesia. Pengguna cukup mengunggah gambar kulit melalui antarmuka web dan sistem akan mengklasifikasikan gambar tersebut menggunakan model pembelajaran mesin.
 
 ##  Tujuan Proyek
 - Mengembangkan model klasifikasi citra berbasis deep learning untuk mendeteksi jenis penyakit kulit.
@@ -10,13 +17,18 @@
 
 ##  Teknologi & Tools
 **ML & Data:**
-- Google Colab, TensorFlow, Keras, Scikit-learn, OpenCV, PIL
-- Dataset: [ISIC 2019 - Kaggle](https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification)
+- TensorFlow + Keras
+- MobileNetV2 (Transfer Learning)
+- OpenCV, PIL, Scikit-learn
+- Python, Jupyter Notebook
+- Dataset: https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset
 
 **Web:**
-- Frontend: React.js + Vite
-- Backend: Flask
-- Desain UI: Figma
+- React.js (Frontend)
+- Node.js + Express (Backend)
+- RESTful API
+- Vite / Webpack, Axios
+- Flask (untuk API ML)
 
 ##  Fitur Utama
 - Upload gambar kulit untuk klasifikasi lesi jinak atau kanker kulit.
@@ -33,7 +45,7 @@
 | Minggu | Machine Learning                        | Frontend & Backend                           |
 |--------|------------------------------------------|----------------------------------------------|
 | 1      | Pengumpulan & preprocessing data         | Desain awal UI, setup struktur proyek        |
-| 2      | Training model CNN, evaluasi awal        | Implementasi UI, setup backend API dasar     |
+| 2      | Training model MobilenetV2, evaluasi awal        | Implementasi UI, setup backend API dasar     |
 | 3      | Optimasi model, ekspor model             | Integrasi model ke backend, deteksi & output |
 | 4      | Pengujian akhir & dokumentasi            | Debugging aplikasi & penyusunan dokumentasi  |
 
@@ -44,7 +56,7 @@ Skivio/
 └── README.md
 
 ##  Evaluasi Model
-- Metode: CNN (custom), Random Forest (baseline)
+- Metode: Mobilenetv2, Random Forest (baseline)
 - Metrik: Akurasi, Precision, Recall, Confusion Matrix
 - Tools: Scikit-learn, Matplotlib, Seaborn
 
@@ -65,7 +77,6 @@ Skivio/
 | Fakhry Muzhaffar Arif        | Frontend/Backend Developer| Politeknik Negeri Ujung Pandang         |
 | Insyirah Fitrah Ramadhani M.Z| Frontend/Backend Developer| Politeknik Negeri Ujung Pandang         |
 
-##  Tema: Health Innovation  
-ID Tim: **CC25-CF343**
+ 
 
  
