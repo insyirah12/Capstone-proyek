@@ -1,7 +1,7 @@
 #  Skivio: Deteksi Dini Kanker Kulit dan Lesi Jinak dengan Model Pembelajaran Mesin
 
 ##  Deskripsi Proyek
-**Skivio** adalah aplikasi berbasis kecerdasan buatan (AI) yang bertujuan untuk membantu masyarakat dalam melakukan deteksi dini terhadap kanker kulit dan lesi jinak melalui analisis gambar kulit. Dengan memanfaatkan teknologi pembelajaran mesin, khususnya model Convolutional Neural Network (CNN), aplikasi ini dapat memberikan hasil klasifikasi secara instan, serta rekomendasi tindakan lanjutan yang mudah dipahami.
+**Skivio** adalah aplikasi berbasis kecerdasan buatan (AI) yang bertujuan untuk membantu masyarakat dalam melakukan deteksi dini terhadap kanker kulit dan lesi jinak melalui analisis gambar kulit. Dengan memanfaatkan teknologi pembelajaran mesin, khususnya model MobilenetV2, aplikasi ini dapat memberikan hasil klasifikasi secara instan, serta rekomendasi tindakan lanjutan yang mudah dipahami.
 
 ##  Tujuan Proyek
 - Mengembangkan model klasifikasi citra berbasis deep learning untuk mendeteksi jenis penyakit kulit.
